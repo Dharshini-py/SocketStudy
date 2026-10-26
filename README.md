@@ -66,7 +66,7 @@ s.send("acknowledgement recived from the server".encode())
 
 ## `server.py`
 
-```
+```py
 import socket
 s=socket.socket()
 s.connect(('localhost',5000))
